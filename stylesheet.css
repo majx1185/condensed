@@ -1,0 +1,200 @@
+/*info: h1:arial, */
+
+/*SKABELON, GRUND STRUKTUR*/
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+.box1 a:hover {
+    color: #00BDB0;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    position: relative;
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.header_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#burger {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+#fronterhvervskeatitle {
+    flex-grow: 1;
+    flex-basis: auto;
+    font-family: arial;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 0.5rem;
+}
+
+#log_out {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+/*SKABELON SLUT*/
+
+/*FORSIDE*/
+
+/*profilbillede*/
+.person img {
+    position: absolute;
+    left: 4vw;
+    top: 1vw;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 100%;
+}
+
+/*Newsfeed billede*/
+.billede1 img {
+    width: 100%;
+    position: absolute;
+    left: 1vw;
+    top: 10vw;
+    width: 95vw;
+}
+
+/*Bliv buddy på kea tekst*/
+.billede1 p {
+    position: absolute;
+    width: 50vw;
+    top: 49vw;
+    left: 5vw;
+    font-size: 4.5vw;
+    font-family: arial;
+    font-weight: 600;
+    color: #00BDBD;
+    z-index: 1;
+}
+
+/*Læs mere box*/
+.lillebox {
+    text-align: center;
+    font-family: arial;
+    font-size: 4.5vw;
+    color: #ffffff;
+    position: absolute;
+    top: 52vw;
+    left: 74vw;
+    width: 15vw;
+    height: 11vw;
+    background-color: #00BDBD;
+    z-index: 1;
+}
+
+/*Flexer ikonerne*/
+.menubox {
+    display: flex;
+}
+
+/*Ikoner placering+farve+størrelse*/
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    position: relative;
+    top: 52vw;
+    width: 45vw;
+    height: 30vw;
+    background-color: #FFFFFF;
+    margin: 3vw;
+}
+
+/*ikon skema*/
+.box1 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 14vw;
+    top: 10vw;
+}
+
+/*ikon afleveringer*/
+.box2 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 15vw;
+    top: 11vw;
+}
+
+/*ikon praktisk info*/
+.box3 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 15vw;
+    top: 10vw;
+}
+
+/*ikon materialer*/
+.box4 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 15vw;
+    top: 11vw;
+}
+
+/*ikon semester*/
+.box5 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 15vw;
+    top: 10vw;
+}
+
+/*ikon lektier*/
+.box6 img {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 15vw;
+    top: 10vw;
+}
+
+/*ikon overskrifter*/
+#menu p {
+    text-align: center;
+    margin: 2vw;
+    font-size: 4.5vw;
+    font-family: arial;
+    font-weight: 600;
+}
+
+/*FORSIDE SLUT*/

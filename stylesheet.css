@@ -21,7 +21,6 @@ a:visited {
 body {
     position: relative;
     background-color: #EDEDED;
-    background-repeat: no-repeat;
 }
 
 header {
@@ -68,7 +67,7 @@ footer {
 /*FORSIDE*/
 
 /*profilbillede*/
-.person img {
+#forsidesection .person img {
     position: absolute;
     left: 4vw;
     top: 1vw;
@@ -78,7 +77,7 @@ footer {
 }
 
 /*Newsfeed billede*/
-.billede1 img {
+#forsidesection .billede1 img {
     width: 100%;
     position: absolute;
     left: 1vw;
@@ -87,7 +86,7 @@ footer {
 }
 
 /*Bliv buddy på kea tekst*/
-.billede1 p {
+#forsidesection .billede1 p {
     position: absolute;
     width: 50vw;
     top: 49vw;
@@ -100,7 +99,7 @@ footer {
 }
 
 /*Læs mere box*/
-.lillebox {
+#forsidesection .lillebox {
     text-align: center;
     font-family: arial;
     font-size: 4.5vw;
@@ -115,12 +114,12 @@ footer {
 }
 
 /*Flexer ikonerne*/
-.menubox {
+#forsidesection .menubox {
     display: flex;
 }
 
 /*Ikoner placering+farve+størrelse*/
-.box1,
+#forsidesection .box1,
 .box2,
 .box3,
 .box4,
@@ -135,7 +134,7 @@ footer {
 }
 
 /*ikon skema*/
-.box1 img {
+#forsidesection .box1 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
@@ -144,7 +143,7 @@ footer {
 }
 
 /*ikon afleveringer*/
-.box2 img {
+#forsidesection .box2 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
@@ -153,7 +152,7 @@ footer {
 }
 
 /*ikon praktisk info*/
-.box3 img {
+#forsidesection .box3 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
@@ -162,7 +161,7 @@ footer {
 }
 
 /*ikon materialer*/
-.box4 img {
+#forsidesection .box4 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
@@ -171,7 +170,7 @@ footer {
 }
 
 /*ikon semester*/
-.box5 img {
+#forsidesection .box5 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
@@ -180,7 +179,7 @@ footer {
 }
 
 /*ikon lektier*/
-.box6 img {
+#forsidesection .box6 img {
     position: absolute;
     height: 15vw;
     width: 15vw;
